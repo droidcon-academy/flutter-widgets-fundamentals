@@ -14,8 +14,8 @@ class DCBasicAppBar extends StatelessWidget {
           Container(
             margin: const EdgeInsets.only(top: 8.0),
             child: AppBar(
-              title: Column(
-                children: const <Widget>[
+              title: const Column(
+                children: <Widget>[
                   Text('Center Title'),
                   Text(
                     'Subtitle Title',
@@ -70,8 +70,8 @@ class DCBasicAppBar extends StatelessWidget {
             child: AppBar(
               // property to remove the leading widget, the back arrow
               automaticallyImplyLeading: false,
-              title: Row(
-                children: const <Widget>[
+              title: const Row(
+                children:  <Widget>[
                   Icon(Icons.home),
                   Padding(
                     padding: EdgeInsets.only(left: 30.0),
